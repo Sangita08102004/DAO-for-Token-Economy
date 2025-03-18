@@ -1,0 +1,15 @@
+[package]
+name = "DAO-for-Token-Economy"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x977d4a2f97e361df9362535efa913b5a3d053e46cd50e8dbde571984c98f8c58"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
